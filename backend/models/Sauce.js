@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 const sauceSchema = new mongoose.Schema({
-    userId: {String},         // the MongoDB unique identifier for the user who created the sauce.
+    userId: String,         // the MongoDB unique identifier for the user who created the sauce.
     name: {String},           // name of the sauce.
     manufacturer: {String},   // manufacturer of the sauce.
     description: {String},    // description of the sauce.
